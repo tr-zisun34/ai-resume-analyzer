@@ -1,87 +1,119 @@
-# Welcome to React Router!
+# AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI‑powered web application that analyzes resumes and provides structured insights to help users understand strengths, gaps, and overall resume quality. The project is built with modern web technologies and deployed on **Vercel**.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🔗 **Live Demo:** https://ai-resume-analyzer-rhdnh41vq-tr-zisun34s-projects.vercel.app/
 
-## Features
+---
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## ✨ Features
 
-## Getting Started
+- 📄 Upload and analyze resumes
+- 🧠 AI‑driven resume insights
+- 📊 Clean and modern UI
+- ⚡ Fast performance with modern frontend tooling
+- 🌐 Fully deployed and accessible online
 
-### Installation
+---
 
-Install the dependencies:
+## 🛠 Tech Stack
 
+- **Frontend:** React + TypeScript
+- **Routing:** React Router
+- **Build Tool:** Vite
+- **Styling:** CSS / Tailwind (if applicable)
+- **Deployment:** Vercel
+- **AI Integration:** (Planned / In progress)
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/tr-zisun34/ai-resume-analyzer.git
+cd ai-resume-analyzer
+```
+
+### 2️⃣ Install dependencies
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
-
+### 3️⃣ Run the development server
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
+The app will be available at:
 ```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+http://localhost:5173
 ```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
 ---
 
-Built with ❤️ using React Router.
+## 🌍 Deployment
+
+This project is deployed using **Vercel**.
+
+Live URL:
+👉 https://ai-resume-analyzer-rhdnh41vq-tr-zisun34s-projects.vercel.app/
+
+Any push to the main branch can be configured to trigger automatic redeployment.
+
+---
+
+## 📂 Project Structure
+
+```
+ai-resume-analyzer/
+├── app/            # Application routes and pages
+├── components/     # Reusable UI components
+├── lib/            # Utilities and helpers
+├── public/         # Static assets
+├── types/          # TypeScript types
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+---
+
+## 📌 Future Improvements
+
+- Resume parsing (PDF/DOCX)
+- Job description matching
+- ATS‑style scoring system
+- Skill gap analysis
+- Downloadable analysis report
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👤 Author
+
+**Zisun**
+
+- GitHub: https://github.com/tr-zisun34
+
+---
+
+⭐ If you like this project, consider giving it a star!
+
